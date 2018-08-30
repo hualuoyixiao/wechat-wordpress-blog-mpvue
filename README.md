@@ -25,7 +25,6 @@ npm run build --report
 - [工具](#工具)
 - [框架](#框架)
 - [组件](#组件)
-- [演示](#演示)
 - [模板](#模板)
 - [技术支持](#技术支持)
 
@@ -43,14 +42,6 @@ npm run build --report
 
 * [mpvue-wxParse](https://github.com/F-loat/mpvue-wxParse) - 富文本组件，支持 Html、Markdown 转 Wxml 可视化
 
-## 演示
-![home](https://blog.linchaokun.cn/wp-content/uploads/2018/08/home.jpeg) 
-
-![fenlei](https://blog.linchaokun.cn/wp-content/uploads/2018/08/fenlei.jpeg)
-
-![about](https://blog.linchaokun.cn/wp-content/uploads/2018/08/about.jpeg)
-
-![details](https://blog.linchaokun.cn/wp-content/uploads/2018/08/details.jpeg)
 
 ## 模板
 
