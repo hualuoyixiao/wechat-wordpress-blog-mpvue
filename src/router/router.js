@@ -1,5 +1,6 @@
 // 首个路由为首页
 module.exports = [
+    
     {
         path: 'pages/home',
         name: 'home',
@@ -37,6 +38,16 @@ module.exports = [
             backgroundTextStyle: "light",
             backgroundColor: "#39f",
             enablePullDownRefresh: true,
+            usingComponents: {
+                "i-divider": "../iview-ui/divider/index"
+            }
+        }
+    },
+    {
+        path: 'pages/categoriesList',
+        name: 'categoriesList',
+        config: {
+            navigationBarTitleText: '分类列表',
             usingComponents: {
                 "i-divider": "../iview-ui/divider/index"
             }

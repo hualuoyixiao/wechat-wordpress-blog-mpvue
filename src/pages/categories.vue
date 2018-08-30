@@ -37,11 +37,12 @@ export default {
 
       console.log(res);
       this.isShow = true;
+      wx.stopPullDownRefresh()
     },
     // 跳转网页
     toWebPage(item) {
       wx.navigateTo({
-        url: "/pages/webpage?url=" + item.link
+        url: "/pages/categoriesList?categoriesId=" + item.id
       });
     }
   },
@@ -67,7 +68,7 @@ export default {
       flex-direction: column;
       width: 50%;
       padding-top: 20rpx;
-      padding-bottom:50rpx;
+      padding-bottom: 50rpx;
       align-items: center;
       .cateImg {
         width: 303rpx;
@@ -103,7 +104,7 @@ export default {
         -webkit-line-clamp: 1;
         -webkit-box-orient: vertical;
         color: #959595;
-        padding:0 35rpx;
+        padding: 0 35rpx;
       }
     }
   }

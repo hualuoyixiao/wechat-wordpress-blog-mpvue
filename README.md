@@ -2,21 +2,6 @@
 
 > 基于mpvue开发wordpress版微信小程序，使站长改几行配置就可轻松拥有自己的小程序
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
 ## 体验
 ![林朝昆Blog](https://blog.linchaokun.cn/wp-content/uploads/2018/08/qrcode.jpeg)
 
@@ -52,4 +37,4 @@ npm run build --report
 * QQ：812086325
 * Q群：152643026
 * 邮箱：admin@linchaokun.cn
-* 网站：blog.linchaokun.cn
+* 网站：https://blog.linchaokun.cn

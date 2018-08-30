@@ -6,6 +6,9 @@ const posts = leftUrl+'/posts?per_page=10&orderby=date&order=desc&page='
 const postsDetails = leftUrl+'/posts/'
 // 获取分类列表
 const categories = leftUrl+'/categories?per_page=10&orderby=count&order=desc'
+// 获取分类信息
+const categorieInfo = leftUrl+'/categories/'
+
 // 获取页面
 const pages =  leftUrl+'/pages/'+aboutId
 
@@ -13,5 +16,6 @@ export default {
     posts:posts,
     postsDetails:postsDetails,
     categories: categories,
-    pages: pages
+    pages: pages,
+    categorieInfo: categorieInfo
 }

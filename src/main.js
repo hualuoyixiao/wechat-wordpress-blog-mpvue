@@ -23,20 +23,22 @@ export default {
       navigationBarTextStyle: 'while'
     },
     tabBar: {
-      selectedColor: '#39f',
+      color: '#fff',
+      selectedColor: '#fff',
+      backgroundColor: '#39f',
       list: [{
-        iconPath: './static/img/shouye.png',
-        selectedIconPath: './static/img/shouye1.png',
+        iconPath: './static/img/homepage.png',
+        selectedIconPath: './static/img/homepage_fill.png',
         pagePath: 'pages/home',
         text: '首页'
       }, {
-        iconPath: './static/img/fenlei.png',
-        selectedIconPath: './static/img/fenlei1.png',
+        iconPath: './static/img/manage.png',
+        selectedIconPath: './static/img/manage_fill.png',
         pagePath: 'pages/categories',
         text: '分类'
       }, {
-        iconPath: './static/img/guanyu.png',
-        selectedIconPath: './static/img/guanyu1.png',
+        iconPath: './static/img/prompt.png',
+        selectedIconPath: './static/img/prompt_fill.png',
         pagePath: 'pages/about',
         text: '关于'
       }]
