@@ -1,6 +1,6 @@
 # blog-mpvue
 
-> 基于mpvue开发wordpress版微信小程序，使站长改几行配置就可轻松拥有自己的小程序
+> 基于mpvue开发wordpress版微信小程序，帮助WordPress的网站用户,通过简单的配置,快速搭建微信小程序。配置文件路径：utils/constant.js
 
 ## 体验
 ![林朝昆Blog](https://blog.linchaokun.cn/wp-content/uploads/2018/08/qrcode.jpeg)
@@ -38,3 +38,5 @@
 * Q群：152643026
 * 邮箱：admin@linchaokun.cn
 * 网站：https://blog.linchaokun.cn
+
+如你有好的想法或建议欢迎与我联系。
